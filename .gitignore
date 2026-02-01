@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints
+
+# Modelos y datos pesados (IA/ML)
+*.h5
+*.pkl
+*.csv
+*.json
+
+# Entornos virtuales
+venv/
+env/
