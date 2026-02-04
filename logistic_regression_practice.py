@@ -43,3 +43,5 @@ plt.ylabel('Probabilidad de Aprobar')
 plt.title('Regresión Logística: Horas vs Probabilidad')
 plt.legend()
 plt.show()
+
+# Fin de la práctica
