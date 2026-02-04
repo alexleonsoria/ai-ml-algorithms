@@ -5,10 +5,10 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 import matplotlib.pyplot as plt
 
-# 3. Creación del dataset (Basado en la salida de la guía)
+# 3. Creación de un dataset más robusto para que las métricas funcionen
 data = {
-    'SquareFootage': [1500, 1800, 2400, 3000, 3500],
-    'Price': [200000, 250000, 300000, 350000, 400000]
+    'SquareFootage': [1500, 1800, 2400, 3000, 3500, 1200, 1700, 2100, 2800, 3200],
+    'Price': [200000, 250000, 300000, 350000, 400000, 170000, 230000, 280000, 330000, 370000]
 }
 df = pd.DataFrame(data)
 
